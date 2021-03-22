@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Calculadora</title>
+        <meta name="description" content="Calculadora JavaScript">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css" type="text/css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="calc-wrapper">
+            <p class="mantissa">0</p>
+            <div class="button-row">
+                <button class="button double" id="button-clear-all">CA</button>
+                <button class="button" id="button-backspace">←</button>
+                <button class="button operand">/</button>
+            </div>
+            <div class="button-row">
+                <button class="button digit">7</button>
+                <button class="button digit">8</button>
+                <button class="button digit">9</button>
+                <button class="button operand">*</button>
+            </div>
+            <div class="button-row">
+                <button class="button digit">4</button>
+                <button class="button digit">5</button>
+                <button class="button digit">6</button>
+                <button class="button operand">-</button>
+            </div>
+            <div class="button-row">
+                <button class="button digit">1</button>
+                <button class="button digit">2</button>
+                <button class="button digit">3</button>
+                <button class="button operand">+</button>
+            </div>
+            <div class="button-row">
+                <button class="button digit double">0</button>
+                <button class="button" id="button-decimal">.</button>
+                <button class="button" id="button-eval">=</button>
+            </div>
+        </div>
+        
+        <script src="./calculator.js" async defer></script>
+    </body>
+</html>
